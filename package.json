@@ -1,0 +1,21 @@
+{
+  "name": "IBS-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "./public/index.html",
+  "scripts": {
+    "start": "parcel public/index.html -p 3000",
+    "build": "parcel build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
