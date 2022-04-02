@@ -1,0 +1,12 @@
+.sliderContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    gap: 40px;
+    width:100%;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+.sliderContainer::-webkit-scrollbar {
+    display: none;
+  }

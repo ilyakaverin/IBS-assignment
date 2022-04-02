@@ -1,0 +1,11 @@
+.title, .description {
+    text-align: center;
+}
+.title {
+    max-width: 486px;
+    margin: 0 auto;
+}
+.description {
+    max-width: 432px;
+    margin: 0 auto;
+}
