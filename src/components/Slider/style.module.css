@@ -1,12 +1,31 @@
 .sliderContainer {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1100px;
-    gap: 40px;
-    width:100%;
-    margin: 0 auto;
+    max-width: 1180px;
     overflow-x: scroll;
+    margin: 0 auto;
+    scroll-behavior: smooth; 
+}
+.sliderInnerContainer {
+    display: flex;
+    gap: 40px;
+    max-width: 1400px;
+    
+    
 }
 .sliderContainer::-webkit-scrollbar {
     display: none;
+  }
+  .navigation {
+      border: 1px solid red;
+      display: flex;
+      margin-bottom: 20px;
+      gap: 18px;
+
+  }
+  .navigation button {
+      background: #FE8700;
+      border: none;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      cursor: pointer
   }

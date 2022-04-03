@@ -25268,25 +25268,69 @@ var _s = $RefreshSig$();
 const Slider = ()=>{
     _s();
     const context = _react.useContext(_context.Context);
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        className: _styleModuleCssDefault.default.sliderContainer,
-        children: context.users && context.users.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_userCardDefault.default, {
-                username: user.name,
-                company: user.company.name,
-                id: user.id
-            }, user.id, false, {
+    const ref = _react.useRef(null);
+    const handleClickLeft = ()=>{
+        ref.current.scrollLeft -= 280;
+    };
+    const handleClickRight = ()=>{
+        ref.current.scrollLeft += 280;
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: _styleModuleCssDefault.default.navigation,
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        onClick: handleClickLeft,
+                        children: "left"
+                    }, void 0, false, {
+                        fileName: "src/components/Slider/Slider.tsx",
+                        lineNumber: 23,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        onClick: handleClickRight,
+                        children: "right"
+                    }, void 0, false, {
+                        fileName: "src/components/Slider/Slider.tsx",
+                        lineNumber: 24,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Slider/Slider.tsx",
-                lineNumber: 14,
-                columnNumber: 52
+                lineNumber: 22,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                ref: ref,
+                className: _styleModuleCssDefault.default.sliderContainer,
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: _styleModuleCssDefault.default.sliderInnerContainer,
+                    children: context.users && context.users.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_userCardDefault.default, {
+                            username: user.name,
+                            company: user.company.name,
+                            id: user.id
+                        }, user.id, false, {
+                            fileName: "src/components/Slider/Slider.tsx",
+                            lineNumber: 30,
+                            columnNumber: 52
+                        }, undefined)
+                    )
+                }, void 0, false, {
+                    fileName: "src/components/Slider/Slider.tsx",
+                    lineNumber: 28,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Slider/Slider.tsx",
+                lineNumber: 27,
+                columnNumber: 9
             }, undefined)
-        )
-    }, void 0, false, {
-        fileName: "src/components/Slider/Slider.tsx",
-        lineNumber: 12,
-        columnNumber: 9
-    }, undefined);
+        ]
+    }, void 0, true);
 };
-_s(Slider, "b9L3QQ+jgeyIrH0NfHrJ8nn7VMU=");
+_s(Slider, "QKgCGkNX5x/78htw7om4xRW3Nzg=");
 _c = Slider;
 exports.default = Slider;
 var _c;
@@ -25392,7 +25436,9 @@ module.exports["cardContainer"] = `XQ-Xua_cardContainer`;
 module.exports["company"] = `XQ-Xua_company`;
 
 },{}],"6XZw1":[function(require,module,exports) {
+module.exports["sliderInnerContainer"] = `uKnb5a_sliderInnerContainer`;
 module.exports["sliderContainer"] = `uKnb5a_sliderContainer`;
+module.exports["navigation"] = `uKnb5a_navigation`;
 
 },{}],"9lTCV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
