@@ -1,0 +1,12 @@
+.comment {
+    justify-content: end;
+    max-width: 956px;
+}
+.comment p { 
+    font-size: 1.25rem;
+    color: #606F81;
+}
+.comment h3 {
+    font-size: 1.5rem;
+    color: #384758;
+}

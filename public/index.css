@@ -1,6 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  
     
+}
+
+#app {
+    background:url('../assets/square.svg') no-repeat, url('../assets/round.svg') no-repeat;
+    background-position: right 32% , right 17.5%;
+    background-size: 15%;
+    height: 1473.5px
+
+}
+
+@media (max-width: 884px) { 
+    #app {
+        background: none;
+        
+    }
 }

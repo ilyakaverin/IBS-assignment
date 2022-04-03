@@ -1,25 +1,38 @@
 .cardContainer {
     display: flex;
     flex-direction: column;
-    gap:10px;
     box-sizing: border-box;
-    border: 1px solid black;
-    cursor: pointer
+    cursor: pointer;
 }
 .image {
-    width:255px;
-
+    width:290px;
+    height: 320px;
+    box-sizing: border-box;
+}
+.cardContainer .imageContainer {
+    max-width: 290px;
+    height: 320px; 
+    margin-bottom: 19px;
+}
+.selected {
+    border-bottom: 5px solid #FE8700;
+}
+.selectedFont {
+    color:#FE8700
 }
 .username {
     font-size: 1.5rem;
+    word-wrap: break-word;
 }
 .company {
-    font-size: 1.125rem
+    font-size: 1.125rem;
+
 }
 
 
-@media (max-width: 1024px) { 
+@media (max-width: 884px) { 
     .image {
-        max-width: 100%;
+        
     }
 }
+

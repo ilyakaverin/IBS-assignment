@@ -4,9 +4,14 @@
 .title {
     max-width: 486px;
     margin: 0 auto;
+    margin-bottom: 45px;
+    color:#384758;
+    font-size: 3rem;
 }
 .description {
     max-width: 432px;
     margin: 0 auto;
     margin-bottom: 31px;
+    color: #606F81;
+    font-size: 1.125rem;
 }

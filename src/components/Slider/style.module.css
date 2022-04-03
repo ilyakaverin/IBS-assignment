@@ -1,24 +1,20 @@
 .sliderContainer {
-    max-width: 1180px;
+    max-width: 1320px;
     overflow-x: scroll;
     margin: 0 auto;
     scroll-behavior: smooth; 
-}
-.sliderInnerContainer {
     display: flex;
-    gap: 40px;
-    max-width: 1400px;
-    
-    
+    gap: 46px;
 }
+
 .sliderContainer::-webkit-scrollbar {
     display: none;
   }
   .navigation {
-      border: 1px solid red;
       display: flex;
       margin-bottom: 20px;
       gap: 18px;
+      justify-content: center;
 
   }
   .navigation button {
@@ -29,3 +25,36 @@
       border-radius: 50%;
       cursor: pointer
   }
+  .navigation .leftArrow {
+      background: url('../../../assets//left-arrow.svg') no-repeat;
+      background-color: #FE8700;
+
+  }
+  .navigation .leftArrow:active {
+    transform: scale(0.9);
+  }
+  .navigation .rightArrow {
+    background: url('../../../assets//right-arrow.svg') no-repeat;
+    background-color:#FE8700 ;
+
+}
+.navigation .rightArrow:active {
+    transform: scale(0.9);
+  }
+
+  @media  (min-width: 1600px) { 
+    .sliderContainer {
+        background: none;
+        max-width: 100%;
+    }
+
+}
+
+  @media (max-width: 884px) { 
+    .sliderContainer {
+        background: none;
+    }
+    .innerContainer {
+        flex-basis: 100%;
+    }
+}
