@@ -1,38 +1,29 @@
 .cardContainer {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 .image {
-    width:290px;
-    height: 320px;
-    box-sizing: border-box;
+  width: 290px;
+  height: 320px;
+  box-sizing: border-box;
 }
 .cardContainer .imageContainer {
-    max-width: 290px;
-    height: 320px; 
-    margin-bottom: 19px;
+  max-width: 290px;
+  height: 320px;
+  margin-bottom: 19px;
 }
 .selected {
-    border-bottom: 5px solid #FE8700;
+  border-bottom: 5px solid #fe8700;
 }
 .selectedFont {
-    color:#FE8700
+  color: #fe8700;
 }
 .username {
-    font-size: 1.5rem;
-    word-wrap: break-word;
+  font-size: 1.5rem;
+  word-wrap: break-word;
 }
 .company {
-    font-size: 1.125rem;
-
+  font-size: 1.125rem;
 }
-
-
-@media (max-width: 884px) { 
-    .image {
-        
-    }
-}
-

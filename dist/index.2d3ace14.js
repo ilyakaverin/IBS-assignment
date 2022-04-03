@@ -25019,24 +25019,24 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_headerDefault.default, {}, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 47,
-                columnNumber: 13
+                lineNumber: 43,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_sliderDefault.default, {}, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 48,
-                columnNumber: 13
+                lineNumber: 44,
+                columnNumber: 7
             }, undefined),
             pickedComments ? /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_commentsDefault.default, {}, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 49,
-                columnNumber: 31
+                lineNumber: 45,
+                columnNumber: 25
             }, undefined) : null
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 41,
-        columnNumber: 9
+        lineNumber: 35,
+        columnNumber: 5
     }, undefined);
 };
 _s(App, "YvGtP3vTvyCpJLvGyEDyGYcWK6Q=");
@@ -25068,7 +25068,7 @@ const Header = ()=>{
     _s();
     const ref = _react.useRef(window);
     _react.useEffect(()=>{
-        ref.current.history.scrollRestoration = 'manual';
+        ref.current.history.scrollRestoration = "manual";
     }, []);
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
         children: [
@@ -25077,16 +25077,16 @@ const Header = ()=>{
                 children: "\u041D\u0430\u0448\u0438 \u0442\u043E\u043F-\u0431\u043B\u043E\u0433\u0435\u0440\u044B"
             }, void 0, false, {
                 fileName: "src/components/Header/Header.tsx",
-                lineNumber: 14,
-                columnNumber: 9
+                lineNumber: 12,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                 className: _styleModuleCssDefault.default.description,
                 children: "\u041B\u0443\u0447\u0448\u0435 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u044B \u0432 \u0441\u0432\u043E\u0435\u043C \u0434\u0435\u043B\u0435, \u0441\u0440\u0435\u0434\u043D\u0438\u0439 \u043E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B \u0432 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438 - 27 \u043B\u0435\u0442"
             }, void 0, false, {
                 fileName: "src/components/Header/Header.tsx",
-                lineNumber: 15,
-                columnNumber: 9
+                lineNumber: 13,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
@@ -25253,8 +25253,8 @@ function registerExportsForReactRefresh(module) {
 }
 
 },{"react-refresh/runtime":"786KC"}],"jsAYn":[function(require,module,exports) {
-module.exports["title"] = `kzCFKW_title`;
 module.exports["description"] = `kzCFKW_description`;
+module.exports["title"] = `kzCFKW_title`;
 
 },{}],"2CWse":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$71cd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -25293,22 +25293,22 @@ const Slider = ()=>{
                         className: _styleModuleCssDefault.default.leftArrow
                     }, void 0, false, {
                         fileName: "src/components/Slider/Slider.tsx",
-                        lineNumber: 24,
-                        columnNumber: 13
+                        lineNumber: 21,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                         onClick: handleClickRight,
                         className: _styleModuleCssDefault.default.rightArrow
                     }, void 0, false, {
                         fileName: "src/components/Slider/Slider.tsx",
-                        lineNumber: 25,
-                        columnNumber: 13
+                        lineNumber: 22,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Slider/Slider.tsx",
-                lineNumber: 23,
-                columnNumber: 9
+                lineNumber: 20,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 ref: ref,
@@ -25319,14 +25319,14 @@ const Slider = ()=>{
                         id: user.id
                     }, user.id, false, {
                         fileName: "src/components/Slider/Slider.tsx",
-                        lineNumber: 30,
-                        columnNumber: 52
+                        lineNumber: 31,
+                        columnNumber: 13
                     }, undefined)
                 )
             }, void 0, false, {
                 fileName: "src/components/Slider/Slider.tsx",
                 lineNumber: 28,
-                columnNumber: 9
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
@@ -25382,35 +25382,35 @@ const UserCard = ({ username , company , id  })=>{
                     })
                 }, void 0, false, {
                     fileName: "src/components/UserCard/UserCard.tsx",
-                    lineNumber: 26,
-                    columnNumber: 13
+                    lineNumber: 24,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/UserCard/UserCard.tsx",
-                lineNumber: 25,
-                columnNumber: 13
+                lineNumber: 23,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
                 className: _styleModuleCssDefault.default.username,
                 children: username
             }, void 0, false, {
                 fileName: "src/components/UserCard/UserCard.tsx",
-                lineNumber: 28,
-                columnNumber: 13
+                lineNumber: 31,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
                 className: _styleModuleCssDefault.default.company,
                 children: company
             }, void 0, false, {
                 fileName: "src/components/UserCard/UserCard.tsx",
-                lineNumber: 29,
-                columnNumber: 13
+                lineNumber: 32,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/UserCard/UserCard.tsx",
-        lineNumber: 24,
-        columnNumber: 9
+        lineNumber: 19,
+        columnNumber: 5
     }, undefined);
 };
 _s(UserCard, "b9L3QQ+jgeyIrH0NfHrJ8nn7VMU=");
@@ -25462,13 +25462,13 @@ $RefreshReg$(_c, "UserCard");
 })();
 
 },{}],"cdHPS":[function(require,module,exports) {
-module.exports["selectedFont"] = `XQ-Xua_selectedFont`;
 module.exports["imageContainer"] = `XQ-Xua_imageContainer`;
+module.exports["image"] = `XQ-Xua_image`;
 module.exports["selected"] = `XQ-Xua_selected`;
 module.exports["cardContainer"] = `XQ-Xua_cardContainer`;
-module.exports["image"] = `XQ-Xua_image`;
 module.exports["username"] = `XQ-Xua_username`;
 module.exports["company"] = `XQ-Xua_company`;
+module.exports["selectedFont"] = `XQ-Xua_selectedFont`;
 
 },{}],"3pZ21":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$fa46 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -25491,9 +25491,9 @@ const Context = /*#__PURE__*/ _reactDefault.default.createContext(null);
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6XZw1":[function(require,module,exports) {
+module.exports["rightArrow"] = `uKnb5a_rightArrow`;
 module.exports["sliderContainer"] = `uKnb5a_sliderContainer`;
 module.exports["navigation"] = `uKnb5a_navigation`;
-module.exports["rightArrow"] = `uKnb5a_rightArrow`;
 module.exports["innerContainer"] = `uKnb5a_innerContainer`;
 module.exports["leftArrow"] = `uKnb5a_leftArrow`;
 
@@ -25507,7 +25507,7 @@ parcelHelpers.export(exports, "getPosts", ()=>getPosts
 const getData = async ()=>{
     let data;
     try {
-        data = await fetch('https://jsonplaceholder.typicode.com/users').then((res)=>res.json()
+        data = await fetch("https://jsonplaceholder.typicode.com/users").then((res)=>res.json()
         );
         return data;
     } catch (e) {
@@ -25518,7 +25518,7 @@ const getData = async ()=>{
 const getPosts = async ()=>{
     let data;
     try {
-        data = await fetch(' https://jsonplaceholder.typicode.com/posts').then((res)=>res.json()
+        data = await fetch(" https://jsonplaceholder.typicode.com/posts").then((res)=>res.json()
         );
         return data;
     } catch (e) {
@@ -25559,8 +25559,8 @@ const Comments = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Comments/Comments.tsx",
-                    lineNumber: 17,
-                    columnNumber: 13
+                    lineNumber: 13,
+                    columnNumber: 9
                 }, undefined),
                 userComments.pickedComments?.comments.map((item)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_commentDefault.default, {
                         title: item.title,
@@ -25568,19 +25568,19 @@ const Comments = ()=>{
                     }, item.id, false, {
                         fileName: "src/components/Comments/Comments.tsx",
                         lineNumber: 19,
-                        columnNumber: 63
+                        columnNumber: 11
                     }, undefined)
                 )
             ]
         }, void 0, true, {
             fileName: "src/components/Comments/Comments.tsx",
-            lineNumber: 16,
-            columnNumber: 11
+            lineNumber: 12,
+            columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/Comments/Comments.tsx",
-        lineNumber: 15,
-        columnNumber: 9
+        lineNumber: 11,
+        columnNumber: 5
     }, undefined);
 };
 _s(Comments, "fMh6Bv/U76t3bB8qZvnwvUxot8g=");
@@ -25595,9 +25595,9 @@ $RefreshReg$(_c, "Comments");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./style.module.css":"9f1gH","react":"21dqq","../Comment/Comment":"5UvcZ","../../context/context.js":"3pZ21"}],"9f1gH":[function(require,module,exports) {
-module.exports["commentsContainer"] = `hCbu1q_commentsContainer`;
 module.exports["emptyDiv"] = `hCbu1q_emptyDiv`;
 module.exports["innerContainer"] = `hCbu1q_innerContainer`;
+module.exports["commentsContainer"] = `hCbu1q_commentsContainer`;
 
 },{}],"5UvcZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d041 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -25620,20 +25620,20 @@ const Comment = ({ title , text  })=>{
             }, void 0, false, {
                 fileName: "src/components/Comment/Comment.tsx",
                 lineNumber: 11,
-                columnNumber: 9
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                 children: text
             }, void 0, false, {
                 fileName: "src/components/Comment/Comment.tsx",
                 lineNumber: 12,
-                columnNumber: 9
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Comment/Comment.tsx",
         lineNumber: 10,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = Comment;

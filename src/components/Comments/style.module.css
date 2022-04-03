@@ -1,31 +1,31 @@
 .commentsContainer {
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    height: 700px;
-    background: url('../../../assets/quotes.svg') no-repeat, 
-    url('../../../assets/square.svg') no-repeat,
-    url('../../../assets/round.svg') no-repeat;
-    background-position: 20% 6%, left 78.8%, left;
-    background-size: auto
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  height: 700px;
+  background: url("../../../assets/quotes.svg") no-repeat,
+    url("../../../assets/square.svg") no-repeat,
+    url("../../../assets/round.svg") no-repeat;
+  background-position: 20% 6%, left 78.8%, left;
+  background-size: auto;
 }
 .commentsContainer .emptyDiv {
-    flex-basis: 22.8%
+  flex-basis: 22.8%;
 }
 .innerContainer {
-   flex-basis: 72.5%;
+  flex-basis: 72.5%;
 }
 
-.innerContainer h2{
-    font-weight: bold;
-    font-size: 3rem;
-    color: #384758;
+.innerContainer h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #384758;
 }
-@media (max-width: 884px) { 
-    .commentsContainer {
-        background: none;
-    }
-    .innerContainer {
-        flex-basis: 100%;
-    }
+@media (max-width: 884px) {
+  .commentsContainer {
+    background: none;
+  }
+  .innerContainer {
+    flex-basis: 100%;
+  }
 }
